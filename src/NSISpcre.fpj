@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Project>
+	<Files>
+		<File Name="NSISpcre.cpp"/>
+		<File Name="exdll.h"/>
+		<File Name="pluginapi.c"/>
+		<File Name="pluginapi.h"/>
+		<File Name="nsis_tchar.h"/>
+		<File Name="api.h"/>
+	</Files>
+	<ConfigurationIndex Value="0"/>
+	<ConfigurationName Value="Win32 - Unicode"/>
+	<Libs Value="-shared -Wl,--kill-at -L&quot;..\..\..\Projects\FalconCpp\trunk\pkg\pcre\pcre 8.39\pcre-8.39\dist\lib&quot; -lpcrecpp -lpcre -m32"/>
+	<Flags Value="-DUNICODE -D_UNICODE -I&quot;..\..\..\Projects\FalconCpp\trunk\pkg\pcre\pcre 8.39\pcre-8.39\dist\include&quot; -DPCRE_STATIC -m32"/>
+	<Target Value="../bin/x86-unicode/NSISpcre.dll"/>
+	<CommandLine Value=""/>
+	<CompilerOptions Value="-Wall -s -O2"/>
+	<DeleteObjectsBefore Value="Yes"/>
+	<DeleteObjectsAfter Value="Yes"/>
+	<DeleteMakefileAfter Value="No"/>
+	<DeleteResourcesAfter Value="Yes"/>
+	<EnableTheme Value="No"/>
+	<RequiresAdmin Value="No"/>
+	<CompilerType Value="CPP"/>
+	<AppType Value="DLL"/>
+	<Configurations>
+		<Configuration>
+			<ConfigurationName Value="Win32 - ANSI"/>
+			<Libs Value="-shared -Wl,--kill-at -L&quot;..\..\..\Projects\FalconCpp\trunk\pkg\pcre\pcre 8.39\pcre-8.39\dist\lib&quot; -lpcrecpp -lpcre -m32"/>
+			<Flags Value="-I&quot;..\..\..\Projects\FalconCpp\trunk\pkg\pcre\pcre 8.39\pcre-8.39\dist\include&quot; -DPCRE_STATIC -m32"/>
+			<Target Value="../bin/x86-ansi/NSISpcre.dll"/>
+			<CommandLine Value=""/>
+			<CompilerOptions Value="-Wall -s -O2"/>
+			<DeleteObjectsBefore Value="Yes"/>
+			<DeleteObjectsAfter Value="Yes"/>
+			<DeleteMakefileAfter Value="No"/>
+			<DeleteResourcesAfter Value="Yes"/>
+			<EnableTheme Value="No"/>
+			<RequiresAdmin Value="No"/>
+			<CompilerType Value="CPP"/>
+			<AppType Value="DLL"/>
+		</Configuration>
+		<Configuration>
+			<ConfigurationName Value="Win64 - Unicode"/>
+			<Libs Value="-shared -Wl,--kill-at -L&quot;..\..\..\Projects\FalconCpp\trunk\pkg\pcre\pcre 8.39\pcre-8.39\dist64\lib&quot; -lpcrecpp -lpcre -m64"/>
+			<Flags Value="-DUNICODE -D_UNICODE -I&quot;..\..\..\Projects\FalconCpp\trunk\pkg\pcre\pcre 8.39\pcre-8.39\dist64\include&quot; -DPCRE_STATIC -m64"/>
+			<Target Value="../bin/x64-unicode/NSISpcre.dll"/>
+			<CommandLine Value=""/>
+			<CompilerOptions Value="-Wall -s -O2"/>
+			<DeleteObjectsBefore Value="Yes"/>
+			<DeleteObjectsAfter Value="Yes"/>
+			<DeleteMakefileAfter Value="No"/>
+			<DeleteResourcesAfter Value="Yes"/>
+			<EnableTheme Value="No"/>
+			<RequiresAdmin Value="No"/>
+			<CompilerType Value="CPP"/>
+			<AppType Value="DLL"/>
+		</Configuration>
+		<Configuration>
+			<ConfigurationName Value="Win64 - ANSI"/>
+			<Libs Value="-shared -Wl,--kill-at -L&quot;..\..\..\Projects\FalconCpp\trunk\pkg\pcre\pcre 8.39\pcre-8.39\dist64\lib&quot; -lpcrecpp -lpcre -m64"/>
+			<Flags Value="-I&quot;..\..\..\Projects\FalconCpp\trunk\pkg\pcre\pcre 8.39\pcre-8.39\dist64\include&quot; -DPCRE_STATIC -m64"/>
+			<Target Value="../bin/x64-ansi/NSISpcre.dll"/>
+			<CommandLine Value=""/>
+			<CompilerOptions Value="-Wall -s -O2"/>
+			<DeleteObjectsBefore Value="Yes"/>
+			<DeleteObjectsAfter Value="Yes"/>
+			<DeleteMakefileAfter Value="No"/>
+			<DeleteResourcesAfter Value="Yes"/>
+			<EnableTheme Value="No"/>
+			<RequiresAdmin Value="No"/>
+			<CompilerType Value="CPP"/>
+			<AppType Value="DLL"/>
+		</Configuration>
+	</Configurations>
+</Project>
